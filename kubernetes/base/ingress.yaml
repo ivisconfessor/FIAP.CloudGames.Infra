@@ -1,0 +1,33 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: cloudgames-ingress
+  namespace: default
+  annotations:
+    kubernetes.io/ingress.class: "gce"
+    kubernetes.io/ingress.global-static-ip-name: "cloudgames-ip"
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /api/v1/usuarios/*
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: usuario-api-service
+            port:
+              number: 8080
+      - path: /api/v1/jogos/*
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: jogo-api-service
+            port:
+              number: 8080
+      - path: /api/v1/pagamentos/*
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: pagamento-api-service
+            port:
+              number: 8080

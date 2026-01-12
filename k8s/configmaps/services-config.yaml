@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: services-config
-  namespace: default
-data:
-  USUARIO_API_URL: "http://usuario-api-service:8080"
-  JOGO_API_URL: "http://jogo-api-service:8080"
-  PAGAMENTO_API_URL: "http://pagamento-api-service:8080"
