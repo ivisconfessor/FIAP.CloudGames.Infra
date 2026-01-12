@@ -1,9 +1,8 @@
 #!/bin/bash
 set -e
 
-echo "Aplicando ConfigMap e Secrets..."
+echo "Aplicando ConfigMap..."
 kubectl apply -f kubernetes/base/configmap.yaml
-kubectl apply -f kubernetes/base/secrets.yaml
 
 echo "Aplicando Usuario API..."
 kubectl apply -f kubernetes/base/usuario-api/
