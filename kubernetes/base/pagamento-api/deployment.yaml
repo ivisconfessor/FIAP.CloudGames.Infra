@@ -23,16 +23,6 @@ spec:
           value: "Production"
         - name: ASPNETCORE_URLS
           value: "http://+:8080"
-        - name: Jwt__Key
-          valueFrom:
-            secretKeyRef:
-              name: jwt-secrets
-              key: Jwt__Key__Pagamento
-        envFrom:
-        - configMapRef:
-            name: services-config
-        - secretRef:
-            name: jwt-secrets
         resources:
           requests:
             memory: "256Mi"
@@ -40,15 +30,3 @@ spec:
           limits:
             memory: "512Mi"
             cpu: "500m"
-        livenessProbe:
-          httpGet:
-            path: /health
-            port: 8080
-          initialDelaySeconds: 30
-          periodSeconds: 10
-        readinessProbe:
-          httpGet:
-            path: /health
-            port: 8080
-          initialDelaySeconds: 10
-          periodSeconds: 5
