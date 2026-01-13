@@ -37,7 +37,7 @@ O FIAP CloudGames faz parte do desafio técnico da PÓS TECH em Arquitetura de S
 
 ### Diagrama de Arquitetura Kubernetes
 
-![Arquitetura FIAP CloudGames no GKE](./docs/images/arquitetura-kubernetes.png)
+![Arquitetura FIAP CloudGames no GKE](./docs/imgs/arquitetura-kubernetes.png)
 
 ---
 
