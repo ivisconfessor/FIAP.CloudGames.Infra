@@ -190,8 +190,8 @@ O FIAP CloudGames faz parte do desafio técnico da PÓS TECH em Arquitetura de S
 
 ---
 
-## 📂 Estrutura do Projeto
-FIAP.CloudGames.Infra/ ├── kubernetes/ │ ├── base/ │ │ ├── usuario-api/ │ │ │ ├── deployment.yaml │ │ │ ├── service.yaml │ │ │ └── configmap.yaml │ │ ├── jogo-api/ │ │ │ ├── deployment.yaml │ │ │ ├── service.yaml │ │ │ └── configmap.yaml │ │ ├── pagamento-api/ │ │ │ ├── deployment.yaml │ │ │ ├── service.yaml │ │ │ └── configmap.yaml │ │ ├── elasticsearch/ │ │ │ ├── deployment.yaml │ │ │ └── service.yaml │ │ └── rabbitmq/ │ │ ├── deployment.yaml │ │ └── service.yaml │ └── overlays/ │ ├── dev/ │ └── prod/ ├── scripts/ │ ├── deploy-all.sh │ ├── build-images.sh │ └── cleanup.sh └── README.md
+## 📂 Estrutura de Arquivos do Projeto de Infra
+![Estrutura de Arquivos Projeto Infra](./docs/imgs/estrutura-projeto-infra.png)
 
 ---
 
