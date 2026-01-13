@@ -399,9 +399,9 @@ Cada API possui um ConfigMap com `appsettings.json`:
 ## 🔗 Links Úteis
 
 - **Repositórios:**
-  - [Usuario API](https://github.com/seu-usuario/FIAP.CloudGames.Usuario.API)
-  - [Jogo API](https://github.com/seu-usuario/FIAP.CloudGames.Jogo.API)
-  - [Pagamento API](https://github.com/seu-usuario/FIAP.CloudGames.Pagamento.API)
+  - [Usuario API](https://github.com/ivisconfessor/FIAP.CloudGames.Usuario.API)
+  - [Jogo API](https://github.com/ivisconfessor/FIAP.CloudGames.Jogo.API)
+  - [Pagamento API](https://github.com/ivisconfessor/FIAP.CloudGames.Pagamento.API)
 
 - **Documentação:**
   - [Kubernetes](https://kubernetes.io/docs/)
@@ -412,11 +412,9 @@ Cada API possui um ConfigMap com `appsettings.json`:
 
 ## 👥 Equipe
 
-- **Nome do Grupo:** [Seu Grupo]
+- **Nome do Grupo:** Grupo 107
 - **Participantes:**
-  - [Nome 1] - Discord: @username1
-  - [Nome 2] - Discord: @username2
-  - [Nome 3] - Discord: @username3
+  - Discord: @ivisconfessor
 
 ---
 
